@@ -4,7 +4,7 @@ You are codrially invited to #{party_name} on #{date} at #{time}. Please RSVP no
 Sincerely, 
 Harry Potter"
 puts "What is your name?"
-guest_name=gets.chomp.capitalize
+guest_name = gets.chomp.capitalize
 puts "What is the name of your party?"
 party_name = gets.chomp.capitalize
 puts "When is your party?"
