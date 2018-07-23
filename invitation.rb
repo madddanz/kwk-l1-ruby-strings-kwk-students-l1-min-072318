@@ -3,8 +3,10 @@ You are codrially invited to #{party_name} on #{date} at #{time}. Please RSVP no
 
 Sincerely, 
 Harry Potter"
-puts guest_name = "hermione"
-puts party_name = "Best Halloween Party Ever"
-puts date = "October 31"
-puts time = "6 pm"
-puts host_name = "Harry Potter"
+puts "What is your name?"
+guest_name=gets.chomp.capitalize
+puts "What is the name of your party?"
+party_name = gets.chomp.capitalize
+puts "When is your party?"
+date = gets.chomp.capitalize
+puts "What is the time of your party?"
