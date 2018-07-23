@@ -10,3 +10,4 @@ party_name = gets.chomp.capitalize
 puts "When is your party?"
 date = gets.chomp
 puts "What is the time of your party?"
+time = gets.chomp
